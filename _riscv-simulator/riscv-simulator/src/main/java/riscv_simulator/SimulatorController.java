@@ -10,7 +10,10 @@ import java.util.HashMap;
 
 @RestController
 @RequestMapping("/api/simulator")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://frontend-tau-plum-64.vercel.app"
+})
 public class SimulatorController {
 
     private final ExecutionEngine engine = new ExecutionEngine();
