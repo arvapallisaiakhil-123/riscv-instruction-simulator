@@ -16,7 +16,7 @@ import {
   CheckCircle2
 } from 'lucide-react'
 
-const API_URL = 'https://riscv-simulator-backend.onrender.com/api/simulator'
+const API_URL = 'https://riscv-simulator-backend.onrender.com/api/simulator';
 
 const initialRegisters = Array.from({ length: 32 }, (_, i) => ({
   name: `x${i}`,
