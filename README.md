@@ -153,6 +153,16 @@ Expected results:
 - x3 = 30
 - x4 = 10
 
+## Screenshots
+
+### Main Dashboard
+![RISC-V Simulator Dashboard](screenshots/dashboard.png)
+
+### Instruction Execution and History
+![Instruction Execution](screenshots/execution.png)
+
+### Memory Visualization and Machine Code
+![Machine Code](screenshots/machine-code.png)
 ## Learning Objectives
 
 - Understand RISC-V instruction formats.
